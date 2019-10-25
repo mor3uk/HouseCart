@@ -1,0 +1,15 @@
+@mixin shadow {
+    box-shadow: 0 0 24px rgba(64, 199, 255, 0.32);
+    transition-duration: 1s;
+    &:hover {
+        box-shadow: 0 0 24px #f2642241;
+    }
+}
+
+@mixin shadowMin {
+    box-shadow: 0 0 6px rgba(64, 199, 255, 0.32);
+    transition-duration: 1s;
+    &:hover {
+        box-shadow: 0 0 6px #f2642241;
+    }
+}

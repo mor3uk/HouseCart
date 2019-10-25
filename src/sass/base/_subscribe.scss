@@ -1,0 +1,17 @@
+.subscribe {
+    padding-top: 147px !important;
+    padding-bottom: 173px !important;
+    background: url("../img/subscribe.png") right bottom no-repeat;
+    background-color: $mainColor;
+    &__subtitle {
+        color: #fff;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    &__form {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+}

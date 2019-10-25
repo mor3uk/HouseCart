@@ -1,0 +1,273 @@
+@media (max-width: 1200px) {
+    .section {
+        padding: 0 calc(50% - 480px);
+    }
+    .header {
+        &__logo {
+            width: 260px;
+        }
+        &__link {
+            font-size: 22px;
+        }
+    }
+    .features {
+        &__list {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+    .steps {
+        padding-top: 10px !important;
+        &-outer {
+            // flex-direction: column;
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+        }
+        &__content {
+            margin: 0;
+        }
+        &__video {
+            margin: 45px 0 0 0;
+        }
+        &__item {
+            &-descr {
+                font-size: 14px;
+            }
+        }
+        .title {
+            text-align: center;
+        }
+    }
+    .qa {
+        padding-top: 40px !important;
+        &__list {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__item {
+            margin: 25px;
+        }
+    }
+    .sell {
+        padding-bottom: 280px !important;
+        &-outer {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__instantly {
+            width: 670px;
+        }
+        &__getintouch {
+            margin-top: 50px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .section {
+        padding: 0 calc(50% - 360px);
+    }
+    .header {
+        justify-content: space-between;
+        &__logo {
+            width: 220px;
+        }
+        &__list {
+            li {
+                padding: 0 15px;
+            }
+        }
+        &__link {
+            font-size: 18px;
+        }
+    }
+    .promo {
+        padding-top: 100px !important;
+        padding-bottom: 250px !important;
+        &__descr {
+            font-size: 18px;
+        }
+    }
+    .title {
+        font-size: 45px;
+    }
+    .input {
+        max-width: 350px;
+    }
+    .input,
+    .btn {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .btn {
+        font-weight: 500;
+    }
+    .features {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+        &__item {
+            display: flex;
+            justify-content: space-between;
+            max-width: 90%;
+        }
+        &__img {
+            margin: 25px 15px 0 0;
+        }
+    }
+    .qa {
+        &__item {
+            max-width: 300px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 0 calc(50% - 270px);
+    }
+    .header {
+        flex-direction: column;
+        &__list {
+            li {
+                margin-top: 10px;
+            }
+        }
+        &__link {
+            font-size: 21px;
+        }
+    }
+    .promo {
+        padding-top: 70px !important;
+        &__descr {
+            font-size: 15px;
+            max-width: 370px;
+        }
+        &__form {
+            margin-top: 30px;
+        }
+    }
+    .input {
+        max-width: 270px;
+    }
+    .title {
+        font-size: 35px;
+    }
+    .steps {
+        &__item {
+            &-descr {
+                font-size: 12px;
+            }
+        }
+    }
+    .qa {
+        padding-top: 0px !important;
+        padding-bottom: 50px !important;
+        &__item {
+            max-width: none;
+            width: 480px;
+        }
+    }
+    .subscribe {
+        background-image: none;
+        padding-top: 90px !important;
+        padding-bottom: 90px !important;
+        &__subtitle {
+            font-size: 20px;
+        }
+        &__form {
+            margin-top: 25px;
+        }
+    }
+    .footer {
+        &__rights {
+            font-size: 14px;
+        }
+    }
+    .animated {
+        -webkit-animation-duration: 0s;
+        animation-duration: 0s;
+        -webkit-animation-fill-mode: none;
+        animation-fill-mode: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .section {
+        padding: 0 calc(50% - 270px);
+    }
+    .header {
+        &__list {
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 350px;
+        }
+    }
+    .promo {
+        padding-bottom: 150px !important;
+        &__descr {
+            max-width: 270px;
+            margin-top: 10px;
+        }
+        &__form {
+            margin-top: 20px;
+        }
+    }
+    .title {
+        font-size: 25px;
+    }
+    .form {
+        flex-direction: column;
+        border: none;
+        align-items: center;
+        width: 100%;
+    }
+    .input {
+        text-align: center;
+        max-width: 80%;
+        border: solid 7px #793412;
+    }
+    .btn_promed,
+    .btn_subscribed {
+        margin-top: 25px;
+        background-color: #793412;
+        &:hover {
+            color: $mainColor;
+        }
+    }
+    .features {
+        &__item {
+            display: block;
+            max-width: 320px;
+        }
+        &__img {
+            margin: 0 auto;
+        }
+    }
+    .qa {
+        &__item {
+            width: 100%;
+        }
+    }
+    .subscribe {
+        &__subtitle {
+            font-size: 17px;
+        }
+    }
+    .sell {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+        background-image: none;
+        &__title {
+            font-size: 22px;
+        }
+        &__descr {
+            font-size: 16px;
+        }
+        &__form-instantly {
+            margin-top: 30px;
+        }
+        &__subtitle {
+            font-size: 25px;
+        }
+    }
+}

@@ -1,1 +1,56 @@
-@import 'base/normalize';
+@import "base/normalize";
+@import "base/variables";
+@import "base/mixins";
+
+// common styles
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+input, button, textarea {
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.section {
+    padding: 0 calc(50% - 590px);
+}
+
+// libs
+@import "libs/animate";
+
+// element blocks
+@import "base/title";
+@import "base/form";
+@import "base/input";
+@import "base/btn";
+
+// page blocks
+@import "base/header";
+@import "base/promo";
+@import "base/features";
+@import "base/steps";
+@import "base/qa";
+@import "base/subscribe";
+@import "base/sell";
+@import "base/footer";
+
+@import "media";

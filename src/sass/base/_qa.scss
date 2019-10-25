@@ -1,0 +1,30 @@
+.qa {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        max-width: 384px;
+        @include shadow;
+        &-point,
+        &-title {
+            padding: 29px 24px 18px 24px;
+            border-bottom: solid 1px #e8e8e8;
+        }
+        &-title {
+            border-bottom-color: $mainColor;
+            font-size: 20px;
+            color: $mainColor;
+            font-weight: 700;
+        }
+        &-point {
+            color: #333333;
+            font-size: 16px;
+            &:nth-child(4) {
+                border-bottom: none;
+            }
+        }
+    }
+}
